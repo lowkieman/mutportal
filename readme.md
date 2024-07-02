@@ -2,16 +2,17 @@
 ## UI/UX design of murang'a university of technology
 ```this is the student and employee portal user interface ui```
 - what a awesome clone from scratch
+Have a look [here](https://mutportal.netlify.app)
 
 ## Snippets
 - The sign in form
-<img src="Icon/Output.png" style="width: 100px; height: 100px; border: 5px solid green;">
+<img src="Icon/Output.png" style="width: 200px; height: 100px; border: 5px solid green;">
 
 - The forgot password form
-<img src="Icon/output2.png" style="width: 100px; height: 100px; border: 5px solid green;">
+<img src="Icon/output2.png" style="width: 200px; height: 100px; border: 5px solid green;">
 
 - The sign up form
-<img src="Icon/output3.png" style="width: 100px; height: 100px; border: 5px solid green;">
+<img src="Icon/output3.png" style="width: 200px; height: 100px; border: 5px solid green;">
     
 
 ## Inquiry
