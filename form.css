@@ -188,6 +188,7 @@ input::placeholder{
     }
     #mission{
         height: fit-content;
+        font-size: normal;
     }
 
     /*LOGIN*/
