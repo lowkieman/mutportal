@@ -186,6 +186,9 @@ input::placeholder{
     #mission,#login,#signup,#forgotpassword{
         width: 100%;
     }
+    #mission{
+        height: fit-content;
+    }
 
     /*LOGIN*/
     #login img{
@@ -217,6 +220,7 @@ input::placeholder{
         left: 0;
         top: 100vh;
         display: none;
+        width: 100%;
     }
 
     /*TARGET*/
