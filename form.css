@@ -175,7 +175,7 @@ input::placeholder{
     opacity: 0;
 }
 #guide:hover{
-    opacity: 1;
+    opacity: 1; 
 }
 
 /*MAXIMUM SCREEN 575px*/
