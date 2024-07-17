@@ -44,7 +44,7 @@ form{
     width: 70%;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 10px 20px rgb(187, 187, 187);
+    box-shadow: 0px 0px 20px rgb(187, 187, 187);
     text-align: left;
     padding: 30px;
     text-transform: capitalize;
@@ -177,6 +177,9 @@ input::placeholder{
 #guide:hover{
     opacity: 1; 
 }
+#forgotpassword form{
+    height: 30vh;
+}
 
 /*MAXIMUM SCREEN 575px*/
 @media screen and (max-width:575px){
@@ -187,8 +190,14 @@ input::placeholder{
         width: 100%;
     }
     #mission{
-        height: fit-content;
-        font-size: normal;
+        height: 100vh;
+        padding: 40vh 0 0 0;
+        margin: 0 auto;
+    }
+    #mission p{
+        font-size: 5vh;
+        margin: 0 auto;
+        padding: 3px 0 0 3px;
     }
 
     /*LOGIN*/
@@ -197,7 +206,6 @@ input::placeholder{
     }
     #login{
         position: static;
-        height: 80vh;
     }
     /*SIGN UP*/
     #signup img{
@@ -205,13 +213,11 @@ input::placeholder{
 
     }
     #signup{
-        height: 90vh;
         position: absolute;
-        top: 80vh;
+        top: 100vh;
         width: 100%;
         left: 0px;
         display: none;
-        height: inherit;
     }
     /*FORGOT PASSWORD*/
     #forgotpassword img{
@@ -220,11 +226,10 @@ input::placeholder{
     #forgotpassword{
         position: absolute;
         left: 0;
-        top: 80vh;
+        top: 100vh;
         display: none;
         width: 100%;
-        height: 95vh;
-        opacity: 1;
+        height: 100vh;
     }
 
     /*TARGET*/
