@@ -21,7 +21,7 @@ body{
     background-size:cover;
     background-position: center;
     color: white;
-    font-weight:800;
+    font-weight:bold;
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -32,7 +32,7 @@ body{
 }
 #login{
     margin: 0 auto;
-    text-align: center;
+    text-align: center; 
 }
 h1{
     color: rgb(40, 175, 40);
@@ -116,9 +116,27 @@ input::placeholder{
 #f3{
     display: flex;
 }
-#f31{
-    width: 30%;
+/*
+.guide{
+    background-color: white;
+    width:100%;
+    text-align: left;
+    padding: 5px;
+    z-index: -1;
+    position: fixed;
+    height: 100%;
+    top: 40%;
+    left: 0;
+    display: none;
 }
+.guide:target{
+    display: block;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}*/
 #f32{
     width: 70%;
     text-align: right;
@@ -162,25 +180,9 @@ input::placeholder{
     display: block;
     
 }
-#guide{
-    background-color: white;
-    width:400px;
-    position: fixed;
-    top: 40vh;
-    left: 35%;
-    text-align: left;
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    opacity: 0;
-}
-#guide:hover{
-    opacity: 1; 
-}
 #forgotpassword form{
     height: 30vh;
 }
-
 /*MAXIMUM SCREEN 575px*/
 @media screen and (max-width:575px){
     body{
@@ -242,15 +244,6 @@ input::placeholder{
     #forgotpassword:target{
         display: block;
         padding: 60px;
-    }
-    #guide{
-        opacity: 0;
-        box-shadow: 1px 0 10px;
-        left: 12%;
-
-    }
-    #guide:hover{
-        opacity: 1;
     }
     form{
         width: 90%;
