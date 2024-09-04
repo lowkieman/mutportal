@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:whitesmoke;
+    font-weight: bold;
+}
+
+#mission,#login,#signup{
+    width: 50%;
+    height: 100vh;
+}
+
+/*mission*/
+#mission{
+    background-image: url("https://tinyurl.com/bdhmm46v");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: white;
+    font-weight:bold;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mission p{
+    margin: 0 auto;
+    padding: 40% 10px;
+    font-size: 34px;
+}
+
+/*LOGOS*/
+#forgotpassword img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+/*MAXIMUM SCREEN 575px*/
+@media screen and (max-width:575px){
+    body{
+        display:block;
+    }
+    #mission,#login,#signup,#forgotpassword{
+        width: 100%;
+    }
+    #mission{
+        height: 100vh;
+        padding: 40vh 0 0 0;
+        margin: 0 auto;
+    }
+    #mission p{
+        font-size: 5vh;
+        margin: 0 auto;
+        padding: 3px 0 0 3px;
+    }
+
+    /*LOGIN*/
+    #login img{
+        margin-top: 0px;
+    }
+    #login{
+        position: static;
+    }
+    /*SIGN UP*/
+    #signup img{
+        margin-top: 10px;
+
+    }
+    #signup{
+        position: absolute;
+        top: 100vh;
+        width: 100%;
+        left: 0px;
+        display: none;
+    }
+    /*FORGOT PASSWORD*/
+    #forgotpassword img{
+        margin-top: 10px;
+    }
+    #forgotpassword{
+        position: absolute;
+        left: 0;
+        top: 100vh;
+        display: none;
+        width: 100%;
+        height: 100vh;
+    }
+
+    /*TARGET*/
+    #login:target{
+        display: block;        
+    }
+    #signup:target{
+        display: block;
+    }
+    #forgotpassword:target{
+        display: block;
+        padding: 60px;
+    }
+    form{
+        width: 90%;
+    }
+    }
