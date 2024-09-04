@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This UI/UX was designed by Wilfred Mamboleo Tinega">
-    <meta name="keywords" content="MUT,portal,mamboleo">
     <link rel="icon" href="Icon/logo.jpeg" type="image/jpg">
     <title>Murang'a University of Technology</title>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/forgotpassword.css">
 </head>
 <body> 
     <div id="mission">
         <p>A Leading University in Technological Innovation , Research, and Training</p>
     </div>
     <div id="login">
-        <img src="Icon/logo.jpeg" alt="logo">
+        <div class="login-icon">
+            <img src="https://tinyurl.com/24wfnbmc" alt="logo">
+        </div>
         <h1>Hi, welcome back</h1>
         <p>Please fill in your details to log in</p>
         <form action="">
@@ -41,59 +45,47 @@
         </div>
     </div>
     <div id="signup">
-        <img src="Icon/logo.jpeg" alt="logo">
-            <h1>Account Registration</h1>
-            <p style="font-weight: bold;">To sign up, kindly fill the form below</p>
-            <form action="">
-                <div id="f1">
-                    <label for="username">username</label><br>
-                    <input type="text" name="username" id="username" placeholder="Student No/ Employee No" required> <br>
-                    <label for="password">password</label><br>
-                    <input type="password" name="password" id="password" placeholder="Enter your Password" required>
-                    <label for="password">Confirm password</label><br>
-                    <input type="password" name="password" id="password" placeholder="Confirm your Password" required>
-                </div>
-                <div id="f3"> 
-                    <!--
-                    <div id="f31"> 
-                        <a href="#guide">guide</a>
-                        <div id="guide" class="guide">
-                            <a href="#" class="close">close</a>
-                            <h8 style="color: rgb(40, 175, 40);">Registration Guide</h8>
-                            <hr>
-                            <p>Please enter your Registration Number/Admission Number/PF No/Employee Number and password. A confirmation link will be sent to your email</p>
-                            <p style="font-weight: normal;">Still having challenges? kindly contact system admin for help</p>
-                            <hr>
-                        </div>
-                    </div>-->
-                    <div id="f32">
-                        <input type="radio" name="student" id="student">
-                        <label for="student">Student</label>
-                        <input type="radio" name="student" id="employee">
-                        <label for="employee">Employee</label> 
-                    </div>                
-                </div>
-                <button type="submit">Submit</button>
-            </form>
-            <div>
-                <p id="one1">Already have an account? <a href="#login" onclick="signUp()">Log In</a></p>
-                <p id="two2">Copyright &copy; <span id="getYear1"></span> - ABNO Softwares International</p>
+        <img src="https://tinyurl.com/24wfnbmc" alt="logo">
+        <h1>Account Registration</h1>
+        <p style="font-weight: bold;">To sign up, kindly fill the form below</p>
+        <form action="">
+            <div id="f1">
+                <label for="username1">username</label><br>
+                <input type="text" name="username1" id="username1" placeholder="Student No/ Employee No" required> <br>
+                <label for="password1">password</label><br>
+                <input type="password" name="password1" id="password1" placeholder="Enter your Password" required>
+                <label for="password2">Confirm password</label><br>
+                <input type="password" name="password2" id="password2" placeholder="Confirm your Password" required>
             </div>
+            <div id="f3"> 
+                <div id="f32">
+                    <input type="radio" name="student" id="student">
+                    <label for="student">Student</label>
+                    <input type="radio" name="student" id="employee">
+                    <label for="employee">Employee</label> 
+                </div>                
             </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div>
+            <p id="one1">Already have an account? <a href="#login">Log In</a></p>
+            <p id="two2">Copyright &copy; <span id="getYear1"></span> - ABNO Softwares International</p>
+        </div>
+    </div>
     <div id="forgotpassword">
-        <img src="Icon/logo.jpeg" alt="logo">
+        <img src="https://tinyurl.com/24wfnbmc" alt="logo">
         <h1>Forgot Password</h1>
         <p style="font-weight: bold;">Please enter your email address to reset password</p>
         <form action="">
             <div id="f1">
-                <label style="text-transform: none;" for="username">Username/Email address</label><br>
-                <input type="text" name="username" id="username" placeholder="Enter your username or email" required> <br>
+                <label style="text-transform: none;" for="username2">Username/Email address</label><br>
+                <input type="text" name="username2" id="username2" placeholder="Enter your username or email" required> <br>
             </div>
             <div></div>
-            <button type="submit" onclick="submitMessage()">Submit</button>
+            <button type="submit">Submit</button>
         </form>
         <div>
-            <p id="one2"><a style="text-transform: none;" href="#login" onclick="logIn()">Back to Login</a></p>
+            <p id="one2"><a style="text-transform: none;" href="#login">Back to Login</a></p>
             <p id="two" style="font-weight: normal;">copyright &copy; <span id="getYear2"></span> - ABNO softwares international</p>
         </div>
     </div>
