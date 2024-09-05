@@ -14,7 +14,7 @@ body{
     font-weight: bold;
 }
 
-#mission,#login,#signup{
+#mission{
     width: 50%;
     height: 100vh;
 }
@@ -37,14 +37,35 @@ body{
     font-size: 34px;
 }
 
-/*LOGOS*/
-#forgotpassword img{
-    width: 100px;
-    height: 100px;
-    margin-top: 20px;
-}
-
-/*MAXIMUM SCREEN 575px*/
-@media screen and (max-width:575px){
-
+/*MAXIMUM SCREEN 425px*/
+@media screen and (max-width:425px){
+    body{
+        display: block;
+        width: 100%;
     }
+
+    #mission{
+        width: 100%;
+        height: 100vh;
+    }
+
+    /*mission*/
+    #mission{
+        background-image: url("https://tinyurl.com/bdhmm46v");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        color: white;
+        font-weight:bold;
+        text-align: center;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #mission p{
+        margin: 0 auto;
+        padding: 40% 10px;
+        font-size: 34px;
+        color: black;
+    }
+
+}
