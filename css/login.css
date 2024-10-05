@@ -2,11 +2,10 @@
 #login{
     margin: 0 auto;
     background-color: whitesmoke;
-    position:fixed;
-    left:50%;
     text-align: center;
-    width: 50%;
+    width: 100%;
     height: 100vh;
+    position: absolute;
 }
 
 #signin:target{
@@ -30,6 +29,7 @@
     color: rgb(40, 175, 40);
     margin: 0;
     font-size: 50px;
+    color: lime;
 }
 
 #login form{

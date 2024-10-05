@@ -12,16 +12,20 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:whitesmoke;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
 }
 
 #mission{
+    margin: 0 auto;
+    padding: 0;
     width: 50%;
-    height: 100vh;
 }
 
 /*mission*/
 #mission{
-    background-image: url("https://tinyurl.com/bdhmm46v");
+    background-image: url("https://portal.mut.ac.ke/uploads/2e23d0ad-52ee-4596-a2f1-74f8fedac74b.jpg?v=GWBop-AlxExZtzEdXbsTgNyDYMgzV8xH8xdjEMuSBbY");
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -68,4 +72,11 @@ body{
         color: black;
     }
 
+}
+
+#aside{
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    position: relative;
 }

@@ -1,24 +1,15 @@
 /*Signup*/
 #signup{
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     background-color: whitesmoke;
-    position: fixed;
-    left: 50%;
     display: none;
     text-align: center;
-    width: 50%;
-    height: 100vh; 
+    position: absolute;
 }
 
 #signup:target{
     display: block;
-}
-
-#login .login-icon{
-    margin: 0 auto;
-    width: 100%;
-    padding: 20px 0 0 0;
 }
 
 #signup img{
@@ -30,7 +21,7 @@
 #signup h1{
     color: rgb(40, 175, 40);
     margin: 0;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 #signup form{
