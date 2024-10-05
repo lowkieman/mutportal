@@ -6,6 +6,8 @@
     display: none;
     text-align: center;
     position: absolute;
+    height: 100vh;
+    background-color: red;
 }
 
 #signup:target{
@@ -13,8 +15,8 @@
 }
 
 #signup img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 
 }
 
