@@ -5,11 +5,10 @@
     }
 
     #mission{
-        width: 100%;
-        height: 100vh;
+        margin: 0 auto;
+        height: 80vh;
     }
-
-    /*mission*/
+    
     #mission{
         background-image: url("https://portal.mut.ac.ke/uploads/2e23d0ad-52ee-4596-a2f1-74f8fedac74b.jpg?v=GWBop-AlxExZtzEdXbsTgNyDYMgzV8xH8xdjEMuSBbY");
         background-repeat: no-repeat;
@@ -23,9 +22,15 @@
 
     #mission p{
         margin: 0 auto;
-        padding: 40% 10px;
-        font-size: 34px;
-        color: black;
+        padding: 30vh 10px 0 10px;
+        font-size: 25px;
+        color: white;
     }
-
+    
+    #aside{
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        position: relative;
+    }
 }
