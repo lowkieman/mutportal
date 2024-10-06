@@ -5,7 +5,6 @@
         position: absolute;
         width: 100%;
         height: 100vh;
-        left:0%;
         text-align: center; 
 }
 
@@ -17,7 +16,7 @@
 #login .login-icon{
     margin: 0 auto;
     width: 100%;
-    padding: 20px 0 0 0;
+    padding: 0;
 }
 
 #login .login-icon img{
@@ -27,9 +26,9 @@
 }
 
 #login h1{
-    color: rgb(40, 175, 40);
-    margin: 0;
-    font-size: 40px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: limegreen;
 }
 
 #login form{
@@ -45,12 +44,15 @@
 }
 
 #login #f2{
+    margin: 20px auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: left;
 }
 
 #login #f21,#f22{
+    margin: 0 auto;
     width: 50%;
+    font-size: 14px;
 }
 
 #login #f22{
@@ -98,7 +100,7 @@
 } 
 
 #login input{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #login button:hover{
@@ -112,7 +114,11 @@
 #login input::placeholder{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 0.6;
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 0 0 0;
+}
+#one,
+#two{
+    font-size: 18px;
 }
 }
