@@ -5,8 +5,9 @@
     }
 
     #mission{
+        margin: 0 auto;
         width: 100%;
-        height: 100vh;
+        height: 85vh;
     }
 
     /*mission*/
@@ -25,14 +26,14 @@
         margin: 0 auto;
         padding: 40% 10px;
         font-size: 34px;
-        color: black;
+        color: white;
     }
 
-}
+    #aside{
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        position: relative;
+    }
 
-#aside{
-    margin: 0 auto;
-    padding: 0;
-    width: 50%;
-    position: relative;
 }
