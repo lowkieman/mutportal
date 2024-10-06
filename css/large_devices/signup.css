@@ -5,22 +5,14 @@
         height: 100vh; 
         background-color: whitesmoke;
         position: absolute;
-        left: 0%;
         display: none;
         text-align: center;
-        
     }
     
     #signup:target{
         display: block;
     }
-    
-    #login .login-icon{
-        margin: 0 auto;
-        width: 100%;
-        padding: 20px 0 0 0;
-    }
-    
+        
     #signup img{
         width: 100px;
         height: 100px;
@@ -96,7 +88,7 @@
     } 
     
     #signup input{
-        font-size: 20px;
+        font-size: 15px;
     }
     
     #signup button:hover{
@@ -110,7 +102,12 @@
     #signup input::placeholder{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         opacity: 0.6;
-        font-size: 20px;
-        padding: 10px 0 0 0;
+        font-size: 15px;
+        padding: 5px 0 0 0;
+    }
+
+    #one1,
+    #two2{
+        font-size: 15px;
     }
 }
