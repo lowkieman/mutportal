@@ -5,7 +5,6 @@
         height: 100vh; 
         background-color: whitesmoke;
         position: absolute;
-        left: 0%;
         display: none;
         text-align: center;
         
@@ -15,28 +14,21 @@
         display: block;
     }
     
-    #login .login-icon{
-        margin: 0 auto;
-        width: 100%;
-        padding: 20px 0 0 0;
-    }
-    
     #signup img{
-        width: 100px;
-        height: 100px;
-    
+        width: 90px;
+        height: 90px;
     }
     
     #signup h1{
         color: rgb(40, 175, 40);
-        margin: 0;
-        font-size: 35px;
+        margin: 0 auto;
+        font-size: 25px;
     }
     
     #signup form{
         margin: 0 auto;
         background-color: white;
-        width: 80%;
+        width: 90%;
         border: none;
         border-radius: 10px;
         box-shadow: 0px 0px 20px rgb(187, 187, 187);
@@ -88,7 +80,7 @@
         font-weight: bold;
         color: white;
         text-transform: capitalize;
-        height: 40px;
+        height: 30px;
     }
     
     #signup label{
@@ -96,7 +88,7 @@
     } 
     
     #signup input{
-        font-size: 20px;
+        font-size: 15px;
     }
     
     #signup button:hover{
@@ -110,7 +102,12 @@
     #signup input::placeholder{
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         opacity: 0.6;
-        font-size: 20px;
-        padding: 10px 0 0 0;
+        font-size: 15px;
+        padding: 5px 0 0 0;
+    }
+
+    #one1,
+    #two2{
+        font-size: 14px;
     }
 }   
