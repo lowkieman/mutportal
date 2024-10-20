@@ -12,6 +12,13 @@ getUsername.addEventListener("focus",function(){
 
 });
 
+function validate(){
+    if (!getUsername.checkValidity()){
+        document.getElementById("validate").innerHTML = getUsername.validationMessage;
+    }else {
+    }
+}
+
 getUsername.addEventListener("blur",function(){
     const border=document.getElementById("username");
     border.style.border="1px solid rgb(181, 189, 194)";

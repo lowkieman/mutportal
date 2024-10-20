@@ -41,9 +41,11 @@
             <form action="">
                 <div id="f1">
                     <label for="username">username</label><br>
-                    <input type="text" name="username" id="username" placeholder="Student No/ Employee No" required> <br>
+                    <input type="text" name="username" id="username" placeholder="Student No/ Employee No" required>
+                    <P id="validate"></P>
                     <label for="password">password</label><br>
                     <input type="password" name="password" id="password" placeholder="Enter your Password" required>
+                    <P id="validate1"></P>
                 </div>
                 <div id="f2">
                     <div id="f21">
@@ -54,7 +56,7 @@
                         <a href="#forgotpassword">forgot password?</a>
                     </div>                
                 </div>
-                <button type="submit">Sign in</button>
+                <button type="submit" onclick="validate()">Sign in</button>
             </form>
             <div>
                 <p id="one"> Don't have an account? <a href="#signup" onclick="logIn()">sign up</a></p>
@@ -69,11 +71,14 @@
             <form action="">
                 <div id="f1">
                     <label for="username1">username</label><br>
-                    <input type="text" name="username1" id="username1" placeholder="Student No/ Employee No" required> <br>
+                    <input type="text" name="username1" id="username1" placeholder="Student No/ Employee No" required>
+                    <P id="validate2"></P>
                     <label for="password1">password</label><br>
                     <input type="password" name="password1" id="password1" placeholder="Enter your Password" required>
+                    <P id="validate3"></P>
                     <label for="password2">Confirm password</label><br>
                     <input type="password" name="password2" id="password2" placeholder="Confirm your Password" required>
+                    <P id="validate4"></P>
                 </div>
                 <div id="f3"> 
                     <div id="f32">
@@ -83,7 +88,7 @@
                         <label for="employee">Employee</label> 
                     </div>                
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit" onclick="validate1()">Submit</button>
             </form>
             <div>
                 <p id="one1">Already have an account? <a href="#login">Log In</a></p>
@@ -98,10 +103,11 @@
             <form action="">
                 <div id="f1">
                     <label style="text-transform: none;" for="username2">Username/Email address</label><br>
-                    <input type="text" name="username2" id="username2" placeholder="Enter your username or email" required> <br>
+                    <input type="text" name="username2" id="username2" placeholder="Enter your username or email" required>
+                    <p id="validate5"></p>
                 </div>
                 <div></div>
-                <button type="submit">Submit</button>
+                <button type="submit" onclick="validate2()">Submit</button>
             </form>
             <div>
                 <p id="one2"><a style="text-transform: none;" href="#login">Back to Login</a></p>
