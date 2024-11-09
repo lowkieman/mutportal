@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Signup() {
   return (
@@ -29,7 +30,7 @@ function Signup() {
                 <button type="submit" onclick="validate1()">Submit</button>
             </form>
             <div>
-                <p id="one1">Already have an account? <a href="#login">Log In</a></p>
+                <p id="one1">Already have an account?<Link to="/">Log In</Link> </p>
                 <p id="two2">Copyright &copy; <span id="getYear1"></span> - ABNO Softwares International</p>
             </div>
         </div>

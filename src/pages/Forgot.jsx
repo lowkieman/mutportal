@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Forgot() {
   return (
@@ -16,7 +17,7 @@ function Forgot() {
                 <button type="submit">Submit</button>
             </form>
             <div>
-                <p id="one2"><a href="#login" >Back to Login</a></p>
+                <p id="one2"><Link to="/">Back to Login</Link></p>
                 <p id="two2">copyright &copy; <span id="getYear2"></span> - ABNO softwares international</p>
             </div>
         </div>
