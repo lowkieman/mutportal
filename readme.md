@@ -2,7 +2,7 @@
 ## UI/UX design of murang'a university of technology
 ```this is the student and employee portal user interface ui```
 - what a awesome clone from scratch
-Have a look [here](https://mutportal.netlify.app)
+Have a look [here](https://mutportal.vercel.app)
 
 ## Snippets
 - The sign in form
